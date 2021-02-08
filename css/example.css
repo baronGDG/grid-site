@@ -1,0 +1,44 @@
+* {
+    background: rgb(230, 230, 144);
+}
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-rows: repeat(2, 50px) ; */
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+    grid-gap: 5px;
+    
+}
+
+.one {
+    background: pink;
+    color: white;
+    font-size: 30px;
+}
+.two {
+    background: aquamarine;
+    color: white;
+    font-size: 30px;
+}
+.three {
+    background: steelblue;
+    color: white;
+    font-size: 30px;
+}
+.four {
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 30px;
+}
+.five {
+    background: greenyellow;
+    color: white;
+    font-size: 30px;
+}
+.six {
+    background: orange;
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,48 @@
+/* Positioning and size */
+
+* {
+    background: rgb(230, 230, 144);
+}
+
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px 200px 40px;
+}
+
+.header {
+    color: antiquewhite;
+    background: greenyellow;
+    font-size: 35px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.menu{
+    color: antiquewhite;
+    background: rgb(255, 47, 220);
+    font-size: 35px;
+    text-align: center;
+   
+
+}
+
+.content{
+    color: antiquewhite;
+    background: rgb(19, 201, 214);
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.footer{
+    color: antiquewhite;
+    background: rgb(255, 141, 47);
+    font-size: 35px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
